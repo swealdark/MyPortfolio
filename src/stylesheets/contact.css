@@ -1,0 +1,116 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+.contact-container {
+    display: flex;
+    width: 1300px;
+    height: 560px;
+    margin: auto;
+    margin-top: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 400;
+}
+form h3 {
+    font-family: 'Orelega One', cursive;
+    color: #fff;
+    font-size: 90px;
+    margin: 0;
+    position: relative;
+    margin-bottom: 10px;
+    top: -1rem;
+    
+}
+form label {
+    font-family: 'Orelega One', cursive;
+    color: #fff;
+    font-size: 40px;
+
+}
+form input, form textarea {
+    width: 488px;
+    max-width: 488px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+form .inputSubmit {
+    width: 184px;
+    height: 58px;
+    border-radius: 4px;
+    font-size: 30px;
+    font-family: 'Orelega One', cursive;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+form .inputSubmit:hover {
+    background-color: #ccc;
+}
+form .inputSubmit:active {
+    background-color: rgb(116, 116, 116);
+}
+form input {
+    height: 50px;
+}
+form textarea {
+    height: 142px;
+}
+.icon {
+    width: 100%;
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.icon img {
+    width: 87px;
+    height: 89px;
+    border: 3px solid #fff;
+    border-radius: 10px; 
+}
+.icon img:hover{
+    box-shadow: 0 0 3px 2px #fff;
+}
+
+/*Responsive*/
+@media (max-width: 450px){
+    .contact-container{
+        width: 22rem;
+        height: 40rem;
+        flex-direction: column;
+    }
+    .form h3{
+        font-size: 60px;
+    }
+    .form input, .form textarea {
+        width: 300px;
+    }
+    .icon{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+@media (min-width:450px) and (max-width: 900px){
+    .contact-container{
+        width: 45rem;
+        height: 50rem;
+        flex-direction: column;
+    }
+    .icon{
+        flex-direction: row;
+        justify-content: center;
+    }
+}

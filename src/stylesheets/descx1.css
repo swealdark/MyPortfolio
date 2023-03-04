@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+.description1 {
+    width: 40rem;
+    height: 35rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+    margin: 2rem 1.2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description1 h3,p {
+    color: #fff;
+    font-family:'Orelega One', cursive;
+}
+.description1 h3 {
+    font-size: 5rem;
+    margin: 80px 0 0 0;
+}
+.description1 p {
+    font-size: 3rem;
+    margin: 10px 0 30px 0;
+} 
+
+.description1 div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description1 div img {
+    width: 87px;
+    height: 89px;
+}
+
+.icon-style{
+    width: 40px;
+    height: 40px;
+}
+/*buttons*/
+.button-container1{
+    margin-top: 45px;
+    
+}
+
+
+.button-container1 button {
+    height: 90px;
+
+}
+.button-container1 .button-style1{
+    width: 236px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Orelega One', cursive;
+    font-size: 40px;
+}
+
+.button-container1 .button-style2 {
+    border: none;
+    border-radius: 50%;
+    width: 90px;
+}
+.button-container1 button:hover {
+    background-color: #d6d6d6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 450px){
+    .description1{
+       width: 22rem;
+       height: 20rem;
+       /* position: relative;
+       left: -13px; */
+    }
+    .description1 h3 {
+       font-size: 60px;
+       margin: 5px 0 5px 0;
+    }
+    .description1 p{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .description1 div img{
+        width: 57px;
+        height: 59px;
+    }
+    .button-container1{
+        margin-top: 20px;
+    }
+    .button-container1 .button-style1{
+        width: 100px;
+        height: 50px;
+        font-size: 22px;
+    }
+    .button-container1 .button-style2{
+        height: 50px;
+        width: 55px;
+    }
+ }
+ 

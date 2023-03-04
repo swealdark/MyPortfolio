@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+
+.carrusel-contain {
+    width: 1300px;
+    height: 560px;
+    margin: auto;
+    margin-top: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+    
+    
+}
+
+.carrusel-contain h3 {
+    margin-bottom: 40px;
+}
+.slick-track {
+    display: flex;
+    padding-left: 22px;
+}
+.carrusel-contain h3 {
+    font-family: 'Orelega One', cursive;
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.slick-track div {
+    width: 280px;
+    height: 255px;
+}
+.arrow {
+    font-size: 40px;
+    padding: 5px ;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    width: 40px;
+    position: absolute;
+    top: 290px;
+    z-index: 100;
+}
+.arrow-right {
+    right: 50px;
+}
+.arrow-left {
+    left: 50px
+}
+.slick-track img {
+    width: 280px;
+    height: 255px;
+    object-fit: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 2px #ccc;
+}
+.app2Tiendad{
+    object-fit: contain;
+}
+/*Responsive*/
+@media (max-width: 450px){
+    .carrusel-contain {
+        width: 22rem;
+        height: 30rem;
+
+        
+        
+    }
+    .carrusel-contain h3{
+        font-size: 60px;
+    }
+    .slick-track {
+        display: flex;
+        padding-left: 37px;
+    }
+    .arrow-right {
+        right: 50px;
+    }
+}
+@media (min-width:450px) and (max-width: 900px){
+    .carrusel-contain {
+        width: 42rem;
+        height: 38rem;
+
+        
+        
+    }
+    
+    .slick-track {
+        display: flex;
+        padding-left: 28px;
+    }
+    .arrow-right {
+        right: 50px;
+    }
+    .arrow {
+        font-size: 50px;
+        width: 50px;
+        
+    }
+}

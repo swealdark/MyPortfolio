@@ -1,0 +1,124 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+.description2 {
+    width: 40rem;
+    height: 35rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+    margin: 2rem 1.2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description2 h3 {
+    font-family: 'Orelega One', cursive;
+    font-size: 90px;
+    color: #fff;
+    margin: 25px 0;
+}
+.description2 a div {
+    width: 280px;
+    height: 255px;
+    border-radius: 2px;
+
+}
+.App1 {
+    background-image: url('../sources/app1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -110px;
+}
+.App2 {
+    background-image: url('../sources/app2.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.href-container {
+    display: flex;
+    gap: 30px;
+}
+.icon-style{
+    width: 40px;
+    height: 40px;
+}
+/*buttons*/
+.button-container{
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+
+.button-container button {
+    height: 90px;
+}
+.button-container .button-style1{
+    width: 236px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Orelega One', cursive;
+    font-size: 40px;
+}
+
+.button-container .button-style2 {
+    border: none;
+    border-radius: 50%;
+    width: 90px;
+}
+.button-container button:hover {
+    background-color: #d6d6d6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+ 
+@media (max-width: 450px){
+    .description2{
+       width: 22rem;
+       height: 20rem;
+       /* position: relative;
+       left: -13px; */
+    }
+    .description2 h3 {
+       font-size: 60px;
+       margin: 5px 0 5px 0;
+    }
+    .description2 p{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .href-container{
+        margin-top: 10px;
+    }
+    .description2 div img{
+        width: 57px;
+        height: 59px;
+    }
+    .description2 a div{
+        width: 150px;
+        height: 125px;
+    }
+    .button-container{
+        margin-top: 40px ;
+    }
+    .button-container .button-style1{
+        width: 100px;
+        height: 50px;
+        font-size: 22px;
+    }
+    .button-container .button-style2{
+        height: 50px;
+        width: 55px !important;
+    }
+ }
+ @media (min-width:450px) and (max-width: 800px){
+    .description1 h3{
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+ }

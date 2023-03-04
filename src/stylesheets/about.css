@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+
+
+.descriptionContainer {
+    width: 1300px;
+    height: 560px;
+    margin: auto;
+    margin-top: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-description h3{
+    font-family: 'Orelega One', cursive;
+    font-size: 90px;
+    color: #fff;
+    margin: 0 ;
+    position: relative;
+    top: -0.4em;
+}
+.about-description p {
+    font-family: 'Orelega One', cursive;
+    font-size: 50px;
+}
+.about-description:first-child p{
+    margin-top: 0 ;
+}
+.about-description:nth-child(2) {
+    padding-top: 95px;
+}
+.logoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logoContainer img{
+    width: 87px;
+    height: 89px;
+}
+/*Responsive*/
+@media (max-width: 450px){
+    .descriptionContainer { 
+        width: 22rem;
+        height:46rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    .descriptionContainer h3{
+        font-size: 60px;
+        text-align: center;
+        top: 20px;
+        margin-bottom: 40px;
+    }
+    .about-description:nth-child(2){
+        padding-top: 0;
+    }
+    .about-description p{
+        padding-left: 5px;
+    }
+}
+@media (min-width:450px) and (max-width: 900px){
+    .descriptionContainer { 
+        width: 42rem;
+        height:50rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    .about-description h3{
+        margin-top: 50px;
+    }
+}
